@@ -19,7 +19,7 @@ main {
 
 .categories_header h1 {
   font-family: "super_enjoy";
-  font-size: 150px;
+  font-size: 130px;
   font-weight: 300;
   color: white;
 }
@@ -38,11 +38,14 @@ main {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 150px;
+  border-radius: 30px;
 }
 
 .cards img {
-  width: 300px;
-  height: auto;
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
 .mushrooms,

@@ -47,7 +47,7 @@ nav {
 }
 
 .menu a:hover {
-  color: #c5ad81;
+  color: #708e60;
 }
 
 .burger {
@@ -65,4 +65,17 @@ nav {
 }
 .burger {
   display: none;
+}
+
+/************* footer ************/
+
+footer {
+  background-color: #d5c7ab;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.grid_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }

@@ -1,0 +1,8 @@
+.grid_footer li a {
+  text-decoration: none;
+  color: white;
+}
+
+.grid_footer li a:hover {
+  color: #708e60;
+}

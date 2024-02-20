@@ -7,12 +7,6 @@
 @font-face {
   font-family: "CreatoDisplay";
   src: url(fonts/CreatoDisplay-Regular.woff2);
-}
-
-@font-face {
-  font-family: "Super_Enjoy";
-  src: url(fonts/Super_enjoy.woff2);
-}
 
 header {
   display: flex;
@@ -95,11 +89,6 @@ footer {
   padding-bottom: 2rem;
   margin-top: auto; /* Placerer footeren i bunden af viewporten */
   align-items: center;
-}
-
-header {
-  padding-right: 10rem;
-  padding-left: 10rem;
 }
 
 ul {

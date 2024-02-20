@@ -12,9 +12,10 @@ a {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
 }
 
+h1,
 h2 {
   font-family: "Super_Enjoy";
 }
@@ -22,6 +23,25 @@ h2 {
 .info {
   padding-right: 5rem;
   padding-left: 5rem;
+}
+
+.centered {
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  text-shadow: 5px 5px black;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h1,
+.centered h2 {
+  text-shadow: 2px 2px black;
 }
 
 /*carousel (kode lånt fra: https://devsnap.me/css-carousels | punkt 10)*/
@@ -42,7 +62,6 @@ ul.slides {
   -moz-user-select: none;
   -khtml-user-select: none;
   -webkit-user-select: none;
-  -webkit-touch-callout: none;
 }
 
 ul.slides input {
@@ -157,24 +176,25 @@ input:checked + .slide-container .nav label {
   color: #ffffff;
   border: none;
   border-radius: 5%;
+  margin-bottom: 20px;
   padding: 15px;
   width: 150px;
 }
 
 .btn:hover {
   background-color: #f4cb8d;
+  cursor: pointer;
 }
 
 .h2_title {
-  margin-top: 50px;
+  margin: 20px;
   text-align: center;
 }
 
 .buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  margin: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 /*info*/

@@ -11,29 +11,34 @@
 main {
   background-color: #708e60;
   background-image: url(images/pattern.svg);
-  background-size: 10%;
+  background-size: 25%;
   background-blend-mode: soft-light;
 }
 
 .categories_header {
   text-align: center;
-  margin: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: -50px;
+  margin-left: -50px;
 }
 
 .categories_header h1 {
   font-family: "super_enjoy";
-  font-size: 130px;
+  font-size: 70px;
   font-weight: 300;
   color: white;
 }
 
 .categories_header p {
   font-family: "creato_display";
+  font-size: 20px;
   color: white;
 }
 
 .cards_overblik {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -44,7 +49,6 @@ main {
   margin-right: -10rem;
   margin-left: -10rem;
 }
-
 .cards img {
   width: 400px;
   height: 300px;
@@ -64,7 +68,6 @@ main {
 a:hover {
   img {
     opacity: 70%;
-    transition: 0.3s;
   }
 }
 
@@ -79,4 +82,79 @@ a:hover {
 
 a {
   text-decoration: none;
+}
+@media (min-width: 800px) {
+  main {
+    background-color: #708e60;
+    background-image: url(images/pattern.svg);
+    background-size: 10%;
+    background-blend-mode: soft-light;
+  }
+
+  .categories_header {
+    text-align: center;
+    margin: 50px;
+  }
+
+  .categories_header h1 {
+    font-family: "super_enjoy";
+    font-size: 130px;
+    font-weight: 300;
+    color: white;
+  }
+
+  .categories_header p {
+    font-family: "creato_display";
+    color: white;
+  }
+
+  .cards_overblik {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #324536;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 150px;
+    margin-right: -10rem;
+    margin-left: -10rem;
+  }
+
+  .cards img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+
+  .cards {
+    display: grid;
+    place-items: center;
+    font-family: "super_enjoy";
+    color: white;
+    text-transform: uppercase;
+    font-size: 45px;
+  }
+
+  a:hover {
+    img {
+      opacity: 70%;
+      transition: 0.3s;
+    }
+  }
+
+  .cards h2 {
+    z-index: 10;
+  }
+
+  .cards h2,
+  .cards img {
+    grid-area: 1 / 1;
+  }
+
+  a {
+    text-decoration: none;
+  }
 }

@@ -8,6 +8,10 @@ p {
   font-family: "CreatoDisplay";
 }
 
+h2 {
+  font-family: "Super_Enjoy";
+}
+
 /*carousel (kode lånt fra: https://devsnap.me/css-carousels | punkt 10)*/
 .carousel {
   margin-left: 15%;

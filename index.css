@@ -5,8 +5,14 @@ body {
   color: white;
 }
 
-p {
+p,
+a {
   font-family: "CreatoDisplay";
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 h2 {
@@ -19,10 +25,6 @@ h2 {
 }
 
 /*carousel (kode lånt fra: https://devsnap.me/css-carousels | punkt 10)*/
-.carousel {
-  margin-left: 15%;
-  margin-right: 15%;
-}
 
 ul.slides {
   display: block;

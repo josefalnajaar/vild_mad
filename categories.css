@@ -85,33 +85,34 @@ a {
 }
 @media (min-width: 800px) {
   main {
-    background-color: #708e60;
-    background-image: url(images/pattern.svg);
+    /* background-color: #708e60;
+    background-image: url(images/pattern.svg); */
     background-size: 10%;
-    background-blend-mode: soft-light;
+    /* background-blend-mode: soft-light; */
   }
 
+  /* 
   .categories_header {
     text-align: center;
     margin: 50px;
-  }
+  } */
 
   .categories_header h1 {
-    font-family: "super_enjoy";
+    /* font-family: "super_enjoy"; */
     font-size: 130px;
-    font-weight: 300;
-    color: white;
+    /* font-weight: 300;
+    color: white; */
   }
 
-  .categories_header p {
+  /* .categories_header p {
     font-family: "creato_display";
     color: white;
-  }
+  } */
 
   .cards_overblik {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
     gap: 20px;
     background-color: #324536;
@@ -119,10 +120,10 @@ a {
     padding-bottom: 30px;
     margin-bottom: 150px;
     margin-right: -10rem;
-    margin-left: -10rem;
+    margin-left: -10rem; */
   }
 
-  .cards img {
+  /* .cards img {
     width: 400px;
     height: 300px;
     object-fit: cover;
@@ -136,7 +137,7 @@ a {
     color: white;
     text-transform: uppercase;
     font-size: 45px;
-  }
+  } */
 
   a:hover {
     img {
@@ -145,7 +146,7 @@ a {
     }
   }
 
-  .cards h2 {
+  /* .cards h2 {
     z-index: 10;
   }
 
@@ -156,5 +157,5 @@ a {
 
   a {
     text-decoration: none;
-  }
+  } */
 }

@@ -103,13 +103,12 @@ ul {
   font-family: CreatoDisplay;
 }
 
-li {
-  font-family: CreatoDisplay;
-  color: white;
-}
-
 .footer_logo {
   width: 100px;
+}
+
+.grid_footer li {
+  padding: 10px;
 }
 
 .grid_footer li a {

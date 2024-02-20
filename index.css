@@ -165,11 +165,16 @@ input:checked + .slide-container .nav label {
   background-color: #f4cb8d;
 }
 
+.h2_title {
+  margin-top: 50px;
+  text-align: center;
+}
+
 .buttons {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  background-color: #324536;
+  margin: 50px;
 }
 
 /*info*/

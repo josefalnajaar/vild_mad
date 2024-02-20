@@ -5,7 +5,8 @@
 
 @font-face {
   font-family: "creato_display";
-  src: url(fonts/CreatoDisplay-Regular.woff2);
+  font-family: super_enjoy;
+  src: url(fonts/Super_Enjoy.woff2);
 }
 
 /*main styling*/
@@ -22,7 +23,7 @@ header {
 
 p,
 a {
-  font-family: "CreatoDisplay";
+  font-family: "creato_display";
 }
 
 a {
@@ -33,7 +34,6 @@ a {
 h1,
 h2 {
   font-family: "super_enjoy";
-  font-weight: 200;
 }
 
 .info {

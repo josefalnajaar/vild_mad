@@ -55,10 +55,3 @@ main {
   color: white;
   text-transform: uppercase;
 }
-
-header,
-main,
-footer {
-  padding-right: 10rem;
-  padding-left: 10rem;
-}

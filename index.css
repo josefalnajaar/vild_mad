@@ -1,3 +1,13 @@
+@font-face {
+  font-family: super_enjoy;
+  src: url(fonts/Super_Enjoy.woff2);
+}
+
+@font-face {
+  font-family: creato_display;
+  src: url(fonts/CreatoDisplay-Regular.woff2);
+}
+
 /*main styling*/
 
 body {
@@ -7,7 +17,7 @@ body {
 
 p,
 a {
-  font-family: "CreatoDisplay";
+  font-family: "creato_display";
 }
 
 a {
@@ -17,7 +27,7 @@ a {
 
 h1,
 h2 {
-  font-family: "Super_Enjoy";
+  font-family: "super_enjoy";
 }
 
 .info {

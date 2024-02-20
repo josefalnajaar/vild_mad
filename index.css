@@ -15,6 +15,11 @@ body {
   color: white;
 }
 
+header {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
 p,
 a {
   font-family: "CreatoDisplay";
@@ -27,7 +32,8 @@ a {
 
 h1,
 h2 {
-  font-family: "Super_Enjoy";
+  font-family: "super_enjoy";
+  font-weight: 200;
 }
 
 .info {
@@ -96,6 +102,7 @@ ul.slides input {
   width: 100%;
   height: 550px;
   object-fit: cover;
+  filter: brightness(60%);
 }
 
 .carousel-controls {
@@ -182,17 +189,21 @@ input:checked + .slide-container .nav label {
 
 /*buttons*/
 .btn {
-  background-color: #deb880;
+  background-image: linear-gradient(180deg, rgba(222, 184, 128) 0%, rgb(191, 146, 78));
   color: #ffffff;
   border: none;
-  border-radius: 5%;
+  border-radius: 15px;
   margin-bottom: 20px;
   padding: 15px;
   width: 150px;
 }
 
 .btn:hover {
-  background-color: #f4cb8d;
+  background-image: linear-gradient(180deg, rgb(244, 203, 141) 0%, rgb(194, 146, 74));
+  background-color: rgb(244, 203, 141);
+  transition: width 500ms;
+  border-bottom: 3px #87704c solid;
+  padding-top: 0.9em;
   cursor: pointer;
 }
 
@@ -235,4 +246,5 @@ input:checked + .slide-container .nav label {
   width: 100%;
   height: 300px;
   object-fit: cover;
+  border-radius: 15px;
 }

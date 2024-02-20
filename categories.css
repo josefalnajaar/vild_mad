@@ -38,20 +38,40 @@ main {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 150px;
-  border-radius: 30px;
+  margin-right: -10rem;
+  margin-left: -10rem;
 }
 
 .cards img {
   width: 500px;
   height: 400px;
   object-fit: cover;
-  border-radius: 15px;
+  border-radius: 30px;
 }
 
-.mushrooms,
-.plants {
+.cards {
   display: grid;
+  place-items: center;
   font-family: "super_enjoy";
   color: white;
   text-transform: uppercase;
+  font-size: 50px;
+}
+
+.cards img:hover {
+  opacity: 70%;
+  transition: 0.3s;
+}
+
+.cards h2 {
+  z-index: 10;
+}
+
+.cards h2,
+.cards img {
+  grid-area: 1 / 1;
+}
+
+a {
+  text-decoration: none;
 }

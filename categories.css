@@ -10,6 +10,9 @@
 
 main {
   background-color: #708e60;
+  background-image: url(images/pattern.svg);
+  background-size: 10%;
+  background-blend-mode: soft-light;
 }
 
 .categories_header {
@@ -43,8 +46,8 @@ main {
 }
 
 .cards img {
-  width: 500px;
-  height: 400px;
+  width: 400px;
+  height: 300px;
   object-fit: cover;
   border-radius: 30px;
 }
@@ -55,7 +58,7 @@ main {
   font-family: "super_enjoy";
   color: white;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 a:hover {

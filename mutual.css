@@ -9,11 +9,6 @@
   src: url(fonts/CreatoDisplay-Regular.woff2);
 }
 
-@font-face {
-  font-family: SuperEnjoy;
-  src: url(fonts/Super_enjoy.woff2);
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -89,6 +84,8 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: #282828;
+  padding-right: 10rem;
+  padding-left: 10rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-top: auto; /* Placerer footeren i bunden af viewporten */
@@ -101,14 +98,12 @@ ul {
   font-family: CreatoDisplay;
 }
 
-li {
-  font-family: CreatoDisplay;
-  color: white;
-  padding: 10px;
-}
-
 .footer_logo {
   width: 100px;
+}
+
+.grid_footer li {
+  padding: 10px;
 }
 
 .grid_footer li a {

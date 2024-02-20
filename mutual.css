@@ -95,13 +95,6 @@ footer {
   align-items: center;
 }
 
-header,
-main,
-footer {
-  padding-right: 10rem;
-  padding-left: 10rem;
-}
-
 ul {
   list-style: none;
   padding: 0;

@@ -13,6 +13,11 @@ h2 {
   font-family: "Super_Enjoy";
 }
 
+.info {
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
 /*carousel (kode lånt fra: https://devsnap.me/css-carousels | punkt 10)*/
 .carousel {
   margin-left: 15%;

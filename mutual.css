@@ -9,11 +9,6 @@
   src: url(fonts/CreatoDisplay-Regular.woff2);
 }
 
-@font-face {
-  font-family: Super_Enjoy;
-  src: url(fonts/Super_enjoy.woff2);
-}
-
 header {
   display: flex;
   justify-content: space-between;

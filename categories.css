@@ -58,9 +58,11 @@ main {
   font-size: 50px;
 }
 
-.cards img:hover {
-  opacity: 70%;
-  transition: 0.3s;
+a:hover {
+  img {
+    opacity: 70%;
+    transition: 0.3s;
+  }
 }
 
 .cards h2 {

@@ -223,9 +223,9 @@ input:checked + .slide-container .nav label {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  gap: 10px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  gap: 3rem;
 }
 
 .right1 {

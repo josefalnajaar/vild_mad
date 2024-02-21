@@ -77,13 +77,14 @@ nav {
   display: none;
 }
 
-/************* footer ************/
-
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Sørger for, at siden fylder mindst hele viewportens højde */
+  min-height: 100vh;
+  /* Sørger for, at siden fylder mindst hele viewportens højde */
 }
+
+/************* footer ************/
 
 footer {
   display: flex;

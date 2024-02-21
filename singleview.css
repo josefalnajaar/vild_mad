@@ -1,1 +1,100 @@
 
+@font-face {
+    font-family: "super_enjoy";
+    src: url(fonts/Super\ Enjoy.woff2);
+}
+
+@font-face {
+    font-family: "creato_display";
+    src: url(fonts/CreatoDisplay-Regular.woff2);
+}
+
+@media (max-width: 600px) {
+    #background_img {
+        background-image: url(images/singleview.webp);
+        aspect-ratio: 4.5/8;
+        background-size: cover;
+        width: 100%;
+        height: 300px; 
+      
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+    }
+
+    .card_general {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        background-color: #324536;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 150px;
+        border-radius: 30px;
+    }
+
+    .card img {
+        width: 500px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header h1 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .card-title {
+    margin-top: 10px;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .background_img {
+      background-image: url('path-to-your-desktop-background.jpg');
+      background-size: cover;
+    }
+  }
+  
+  @media only screen and (max-width: 599px) {
+    .background_img {
+      background-image: url('path-to-your-mobile-background.jpg');
+      background-size: cover;
+    }
+  }
+  

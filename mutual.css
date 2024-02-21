@@ -90,8 +90,8 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: #282828;
-  padding-right: 10rem;
-  padding-left: 10rem;
+  padding-right: 6rem;
+  padding-left: 6rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-top: auto; /* Placerer footeren i bunden af viewporten */
@@ -195,5 +195,13 @@ ul {
     font-family: "super_enjoy";
     text-transform: uppercase;
     text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
   }
 }

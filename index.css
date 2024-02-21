@@ -15,14 +15,13 @@ body {
   color: white;
 }
 
-header {
-  padding-left: 10rem;
-  padding-right: 10rem;
-}
-
 p,
 a {
   font-family: "creato_display";
+}
+
+p {
+  line-height: 1.5;
 }
 
 a {
@@ -246,7 +245,7 @@ input:checked + .slide-container .nav label {
 .row img,
 .row1 img {
   width: 100%;
-  height: 300px;
+  height: 340px;
   object-fit: cover;
   border-radius: 15px;
 }

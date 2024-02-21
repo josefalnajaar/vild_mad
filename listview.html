@@ -29,7 +29,10 @@
       </nav>
     </header>
 
-    <section></section>
+    <section>
+      <h1 class="kategori_navn">Kategori</h1>
+      <div class="listview_container"></div>
+    </section>
 
     <footer>
       <div class="grid_footer">
@@ -44,5 +47,17 @@
       </div>
     </footer>
     <script src="script.js"></script>
+    <script src="liste.js"></script>
   </body>
 </html>
+
+<template class="listview_template">
+  <a class="singleview_link"
+    ><article class="listview_article">
+      <div class="listview_image_container">
+        <img class="listview_image" />
+      </div>
+      <h3 class="listview_name">Navn</h3>
+    </article>
+  </a>
+</template>

@@ -250,7 +250,7 @@ input:checked + .slide-container .nav label {
 .row img,
 .row1 img {
   width: 100%;
-  height: 300px;
+  height: 340px;
   object-fit: cover;
   border-radius: 15px;
 }

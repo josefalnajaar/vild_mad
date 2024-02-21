@@ -265,6 +265,24 @@ input:checked + .slide-container .nav label {
   padding-bottom: 30px;
 }
 
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.facebook_social img,
+.instagram_social img {
+  width: 50px;
+}
+
+.facebook_social img:hover,
+.instagram_social img:hover {
+  opacity: 0.5;
+}
+
 /*media-queries*/
 @media (max-width: 800px) {
   .info {
@@ -292,5 +310,16 @@ input:checked + .slide-container .nav label {
 
   .centered h2 {
     font-size: 20px;
+  }
+
+  .socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .footer_logo img {
+    width: 100px;
   }
 }

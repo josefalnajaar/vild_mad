@@ -293,4 +293,9 @@ input:checked + .slide-container .nav label {
   .centered h2 {
     font-size: 20px;
   }
+
+  .carousel-controls {
+    z-index: 500;
+    position: relative;
+  }
 }

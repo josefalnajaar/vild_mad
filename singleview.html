@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="mutual.css" />
+    <link rel="stylesheet" href="singleview.css" />
   </head>
 
   <body>
@@ -26,11 +27,10 @@
         </div>
       </nav>
     </header>
-    
+
     <main class="singleview">
       <h1 class="singleview_navn"></h1>
       <div class="singleview_info">
-        <img class="singleview_billede" />
         <section class="singleview_tekst">
           <div class="tekst">
             <h3>Where to find</h3>
@@ -40,12 +40,11 @@
             <h3>When to look</h3>
             <p class="when_to_look"></p>
           </div>
-          <div class="tekst">
-            <h3>How to cook</h3>
-            <p class="how_to_cook"></p>
-          </div>
         </section>
+        <img class="singleview_billede" />
       </div>
+      <a href="listview.html"><div class="knap">GO BACK</div></a>
+    </main>
     <footer>
       <div class="grid_footer">
         <ul>
@@ -53,12 +52,12 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
-      </main>
 
       <div class="footer_logo">
         <img src="svg/vild_mad_footer.svg" alt="logo" />
       </div>
     </footer>
+    <script src="data.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

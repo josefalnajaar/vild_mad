@@ -188,13 +188,16 @@ input:checked + .slide-container .nav label {
 
 /*buttons*/
 .btn {
+  font-family: "creato_display";
   background-image: linear-gradient(180deg, rgba(222, 184, 128) 0%, rgb(191, 146, 78));
   color: #ffffff;
   border: none;
   border-radius: 15px;
-  margin-bottom: 20px;
-  padding: 15px;
+  margin-bottom: 30px;
+  padding: 20px;
   width: 150px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .btn:hover {
@@ -246,6 +249,16 @@ input:checked + .slide-container .nav label {
   height: 300px;
   object-fit: cover;
   border-radius: 15px;
+}
+
+.learn_more {
+  background-color: #324536;
+  background-image: url(images/pattern.svg);
+  background-size: 10%;
+  background-blend-mode: soft-light;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /*media-queries*/

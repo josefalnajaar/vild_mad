@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "super_enjoy";
+  src: url(fonts/Super\ Enjoy.woff2);
+}
+
+@font-face {
+  font-family: "creato_display";
+  src: url(fonts/CreatoDisplay-Regular.woff2);
+}
+
+body {
+  background-color: #708e60;
+}
+
+h4 {
+  font-family: creato_display;
+  color: white;
+}
+
+h2 {
+  font-family: super_enjoy;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.checkbox-label {
+  color: white;
+}
+
+.file-input-container {
+  color: white;
+}
+
+.contact_header {
+  text-align: center;
+  margin: 50px;
+}
+
+.contact_header h1 {
+  font-family: "super_enjoy";
+  font-size: 48px;
+  font-weight: 300;
+  color: white;
+  text-align: left;
+  margin-left: -63px;
+}
+
+/* styling på formularen i contact */
+/* Stiler for grid-container */
+
+.forms_samlet {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.grid-container {
+  display: flex;
+  grid-template-columns: repeat(5, 3fr);
+  flex-direction: column;
+  padding: 0px;
+}
+
+/* Stiler for form_box */
+.form_box {
+  border: 2px solid #ccc;
+  padding: 20px;
+}
+
+/* Stiler for submit-knapp */
+.submit.button {
+  width: 30%;
+  padding: 11px;
+  background-color: #deb880;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 26px;
+}
+
+.submit.button:hover {
+  background-color: #55593c;
+}
+/* tekst til maps */
+.teksttilmaps {
+  font-family: super_enjoy;
+  color: white;
+}
+
+/* boksen med adressen inden i */
+.filled-box {
+  background-color: #324536;
+  padding: 20px;
+  border-radius: 9px;
+  margin-bottom: 56px;
+}
+
+.filled-box h2 {
+  margin-top: 0; /* Fjern toppmarginen for overskriften */
+}
+
+/* brødteksten i selve boksen */
+p {
+  font-family: creato_display;
+  color: #fff;
+  /* margin-inline: 23px; */
+}
+
+.form_container1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-bottom: 57px;
+}
+.form_sprite {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 34px;
+  margin-inline: 73px;
+}
+
+.mapstekst {
+  padding-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .form_container1,
+  .form_sprite {
+    display: grid;
+    justify-content: center;
+    margin-inline: 29px;
+  }
+
+  .form_box {
+    border: 2px solid #ccc;
+    padding: 20px;
+  }
+
+  .mapstekst {
+    padding: 38px;
+  }
+  .find {
+    margin-inline: 50px;
+  }
+
+  .contact_p h2 {
+    margin-inline: 50px;
+  }
+}

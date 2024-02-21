@@ -322,4 +322,8 @@ input:checked + .slide-container .nav label {
   .footer_logo img {
     width: 100px;
   }
+  .carousel-controls {
+    z-index: 500;
+    position: relative;
+  }
 }

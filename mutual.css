@@ -121,6 +121,24 @@ ul {
   color: #708e60;
 }
 
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.facebook_social img,
+.instagram_social img {
+  width: 50px;
+}
+
+.facebook_social img:hover,
+.instagram_social img:hover {
+  opacity: 0.5;
+}
+
 @media (max-width: 800px) {
   footer {
     display: flex;
@@ -137,23 +155,5 @@ ul {
 
   .footer_logo img {
     width: 100px;
-  }
-
-  .socials {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
-  }
-
-  .facebook_social img,
-  .instagram_social img {
-    width: 50px;
-  }
-
-  .facebook_social img:hover,
-  .instagram_social img:hover {
-    opacity: 0.5;
   }
 }

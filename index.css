@@ -25,6 +25,10 @@ a {
   font-family: "creato_display";
 }
 
+p {
+  line-height: 1.5;
+}
+
 a {
   text-decoration: none;
   color: #ffffff;

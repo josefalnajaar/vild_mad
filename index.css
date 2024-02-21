@@ -29,6 +29,11 @@ a {
   color: #ffffff;
 }
 
+.header_logo:hover,
+.footer_logo:hover {
+  opacity: 70%;
+}
+
 .info {
   padding-right: 2rem;
   padding-left: 2rem;

@@ -1,144 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="mutual.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <meta name="robots" content="noindex, nofollow" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>contact</title>
-  <link rel="stylesheet" href="mutual.css">
-  <link rel="stylesheet" href="contact.css">
-</head>
-
-
-<body>
-  <header>
-    <div class="header_logo">
-      <a href="index.html">
-        <img src="svg/vild_mad_header.svg" alt="logo" />
-      </a>
-    </div>
-    <nav>
-      <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="categories.html">Categories</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <div class="burger">
-
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+  <body>
+    <header>
+      <div class="header_logo">
+        <a href="index.html">
+          <img src="svg/vild_mad_header.svg" alt="logo" />
+        </a>
       </div>
-    </nav>
-  </header>
-  <main>
-
-    <div class="contact">
-      <div class="contact_header">
-        <div class="contact_overskrift">
-          <h1>CONTACT</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="contact">
+        <div class="contact_header">
+          <div class="contact_overskrift">
+            <h1>CONTACT</h1>
+          </div>
+        </div>
+        <div class="contact_p">
+          <h2>What was your favorite plant og mushroom?</h2>
         </div>
       </div>
-      <div class="contact_p">
-        <h2> What was your favorite plant og mushroom?
-        </h2>
-      </div>
-    </div>
 
-    <div class="form_sprite">
-      <div class="forms_samlet">
-        <div class="find">
-          <h4>Photo of your find:</h4>
-          <div class="file-input-container">
-            <label for="file" class="custom-button">
-              <img src="billeder/insertpic.svg" alt="Choose File"> </label>
-            <input type="file" id="file" class="file-input" />
-          </div>
-          <h4>What category is your find discoverable in?</h4>
-          <div class="checkbox_category">
-            <label for="category" class="checkbox-label">
-              <input class="checkbox" type="checkbox" name="season" id="category"> Plants
-            </label>
+      <div class="form_sprite">
+        <div class="forms_samlet">
+          <div class="find">
+            <h4>Photo of your find:</h4>
+            <div class="file-input-container">
+              <label for="file" class="custom-button"> <img src="billeder/insertpic.svg" alt="Choose File" /> </label>
+              <input type="file" id="file" class="file-input" />
+            </div>
+            <h4>What category is your find discoverable in?</h4>
+            <div class="checkbox_category">
+              <label for="category" class="checkbox-label"> <input class="checkbox" type="checkbox" name="season" id="category" /> Plants </label>
+            </div>
 
+            <label for="mushrooms" class="checkbox-label"> <input class="checkbox" type="checkbox" name="Mushroomes" id="mushrooms" /> Mushrooms </label>
           </div>
 
-          <label for="mushrooms" class="checkbox-label">
-            <input class="checkbox" type="checkbox" name="Mushroomes" id="mushrooms"> Mushrooms
-          </label>
-        </div>
+          <div class="form_container1">
+            <div class="grid-container">
+              <!-- Ditt eksisterende innhold for form_sprite her -->
 
-        <div class="form_container1">
+              <form name="login" netflify>
+                <div class="form_container">
+                  <div class="form_grid">
+                    <div>
+                      <h4>Name:</h4>
+                      <input type="text" name="name" id="name" required />
+                    </div>
+                    <div>
+                      <h4>Email:</h4>
+                      <input type="email" name="email" id="email" required />
+                    </div>
+                    <div>
+                      <!-- Åpnet en ny div-tag for dette elementet -->
+                      <h4>Name of your find:</h4>
+                      <input type="text" name="find_name" id="find_name" required />
+                    </div>
 
-          <div class="grid-container">
-
-            <!-- Ditt eksisterende innhold for form_sprite her -->
-
-
-            <form name="login" netflify>
-              <div class="form_container">
-                <div class="form_grid">
-                  <div>
-                    <h4>Name:</h4>
-                    <input type="text" name="name" id="name" required>
+                    <div class="text">
+                      <!-- Åpnet en ny div-tag for dette elementet -->
+                      <h4>What are you gonna do with your find? Here is some insperation</h4>
+                      <a href="https://vildmad.dk/dk/opskrifter">Inspiration: https://vildmad.dk/dk/opskrifter</a><br />
+                      <textarea name="message" id="message"></textarea>
+                    </div>
                   </div>
-                  <div>
-                    <h4>Email:</h4>
-                    <input type="email" name="email" id="email" required>
-                  </div>
-                  <div> <!-- Åpnet en ny div-tag for dette elementet -->
-                    <h4>Name of your find:</h4>
-                    <input type="text" name="find_name" id="find_name" required>
-                  </div>
-
-                  <div class="text"> <!-- Åpnet en ny div-tag for dette elementet -->
-                    <h4> What are you gonna do with your find? Here is some insperation</h4>
-                    <a href="https://vildmad.dk/dk/opskrifter">Inspiration: https://vildmad.dk/dk/opskrifter</a><br>
-                    <textarea name="message" id="message"></textarea>
-
-                  </div>
-
+                  <div><input class="submit button" type="submit" /></div>
                 </div>
-                <div> <input class="submit button" type="submit"> </div>
-              </div>
-            </form>
-
-
+              </form>
+            </div>
           </div>
-
         </div>
-      </div>
-      <div class="helemaps_tekst">
-
-        <div class="mapstekst">
-          <!-- <div class="mapsbillede"> -->
-          <img src="images/billedecontact_1_50.webp" alt="maps" />
-          <div class="teksttilmaps">
-            <h2>Find us here</h2>
-          </div>
-          <!-- </div> -->
-          <div class="filled-box">
-            <p>Lars larsen gade 1301 2301 København S</p>
+        <div class="helemaps_tekst">
+          <div class="mapstekst">
+            <!-- <div class="mapsbillede"> -->
+            <img src="images/billedecontact_1_50.webp" alt="maps" />
+            <div class="teksttilmaps">
+              <h2>Find us here</h2>
+            </div>
+            <!-- </div> -->
+            <div class="filled-box">
+              <p>Lars larsen gade 1301 2301 København S</p>
+            </div>
           </div>
         </div>
       </div>
+    </main>
 
-    </div>
+    <footer>
+      <div class="grid_footer">
+        <ul>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer_logo">
+        <img src="svg/vild_mad_footer.svg" alt="logo" />
+      </div>
+    </footer>
 
-  </main>
-
-  <footer>
-    <div class="grid_footer">
-      <ul>
-        <li><a href="categories.html">Categories</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-    <div class="footer_logo">
-      <img src="svg/vild_mad_footer.svg" alt="logo" />
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>

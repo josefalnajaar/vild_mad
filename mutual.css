@@ -171,22 +171,29 @@ ul {
 
   nav.active .menu {
     display: block;
-    background-color: #fff;
+    background-color: #324536;
+    background-image: url(images/pattern.svg);
+    background-size: 25%;
+    background-blend-mode: soft-light;
     position: absolute;
     top: 60px;
     left: 0;
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1;
-    padding-left: 4rem;
   }
 
   nav.active .menu li {
     margin: 10px 20px;
+    text-align: center;
   }
 
   nav.active .menu a {
     font-size: 34px;
     margin-top: -2%;
+    color: white;
+    font-family: "super_enjoy";
+    text-transform: uppercase;
+    text-align: center;
   }
 }

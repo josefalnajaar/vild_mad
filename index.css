@@ -30,14 +30,14 @@ a {
   color: #ffffff;
 }
 
+.info {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
 h1,
 h2 {
   font-family: "super_enjoy";
-}
-
-.info {
-  padding-right: 5rem;
-  padding-left: 5rem;
 }
 
 .centered {

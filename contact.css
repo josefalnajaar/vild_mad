@@ -110,6 +110,12 @@ p {
   /* margin-inline: 23px; */
 }
 
+.form_container {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
 .form_container1 {
   display: flex;
   justify-content: space-between;
@@ -121,6 +127,10 @@ p {
   justify-content: space-between;
   padding-top: 34px;
   margin-inline: 73px;
+}
+
+.contact {
+  margin-left: 70px;
 }
 
 .mapstekst {
@@ -149,5 +159,12 @@ p {
 
   .contact_p h2 {
     margin-inline: 50px;
+  }
+
+  .contact_header h1 {
+    font-family: "super_enjoy";
+    color: white;
+    text-align: center;
+    margin-left: 0%;
   }
 }

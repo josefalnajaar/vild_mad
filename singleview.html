@@ -1,66 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="mutual.css" />
-    <link rel="stylesheet" href="singleview.css" />
-  </head>
 
-  <body>
-    <header>
-      <div class="header_logo">
-        <a href="index.html">
-          <img src="svg/vild_mad_header.svg" alt="logo" />
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="mutual.css" />
+  <link rel="stylesheet" href="singleview.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header_logo">
+      <a href="index.html">
+        <img src="svg/vild_mad_header.svg" alt="logo" />
+      </a>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
-      <nav>
-        <ul class="menu">
-          <li><a href="categories.html">Categories</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="burger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
+    </nav>
+  </header>
+
+  <main class="singleview">
+    <h1 class="singleview_navn"></h1>
+    <div class="singleview_info">
+      <img class="singleview_billede" />
+      <section class="singleview_tekst">
+        <div class="tekst">
+          <h3>Where to find</h3>
+          <p class="where_to_find"></p>
         </div>
-      </nav>
-    </header>
-    
-    <main class="singleview">
-      <h1 class="singleview_navn"></h1>
-      <div class="singleview_info">
-        <img class="singleview_billede" />
-        <section class="singleview_tekst">
-          <div class="tekst">
-            <h3>Where to find</h3>
-            <p class="where_to_find"></p>
-          </div>
-          <div class="tekst">
-            <h3>When to look</h3>
-            <p class="when_to_look"></p>
-          </div>
-          <div class="tekst">
-            <h3>How to cook</h3>
-            <p class="how_to_cook"></p>
-          </div>
-        </section>
-      </div>
-    </main>
-    
-    <footer>
-      <div class="grid_footer">
-        <ul>
-          <li><a href="categories.html">Categories</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
+        <div class="tekst">
+          <h3>When to look</h3>
+          <p class="when_to_look"></p>
+        </div>
+        <div class="tekst">
+          <h3>How to cook</h3>
+          <p class="how_to_cook"></p>
+        </div>
+      </section>
+    </div>
+  </main>
 
-      <div class="footer_logo">
-        <img src="svg/vild_mad_footer.svg" alt="logo" />
+  <footer>
+    <div class="grid_footer">
+      <ul>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="socials">
+      <div class="instagram_social">
+        <a href="https://www.instagram.com/vildmaddk/">
+          <img src="svg/instagram_icon.svg" alt="instagram_icon"></a>
       </div>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+      <div class="facebook_social">
+        <a href="https://www.facebook.com/vildmaddk">
+          <img src="svg/facebook_icon.svg" alt="facebook_icon"></a>
+      </div>
+    </div>
+    <div class="footer_logo">
+      <a href="index.html"> <img src="svg/vild_mad_footer.svg" alt="logo"></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>

@@ -18,6 +18,12 @@ function visData(data) {
     templateClone.querySelector(".listview_name").textContent = element.navn;
     templateClone.querySelector(".listview_image").src = element.image;
 
+    const article = templateClone.querySelector(".listview_article");
+    article.addEventListener("click", function () {
+      // Navigere til singleview-siden med det relevante articleId
+      window.location.href = `singleview.html?articleId=${element["list-id"]}`;
+    });
+
     document.querySelector(".listview_container").appendChild(templateClone);
   });
 }

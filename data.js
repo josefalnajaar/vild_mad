@@ -1,7 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
-const articleId = urlParams.get("articleId");
+const listeId = urlParams.get("liste_id");
 
-const url = `https://krsvqjqixsdadwlichqj.supabase.co/rest/v1/svampe?liste_id=eq.${articleId}`;
+const url = `https://krsvqjqixsdadwlichqj.supabase.co/rest/v1/svampe?liste_id=eq.${listeId}`;
 
 fetch(url, {
   method: "GET",

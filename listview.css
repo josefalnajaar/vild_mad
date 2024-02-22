@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "creato_display";
+  src: url(fonts/CreatoDisplay-Regular.woff2);
+}
+
+@font-face {
+  font-family: "super_enjoy";
+  src: url(fonts/Super_enjoy.woff2);
+}
+
+section {
+  background-color: #324536;
+}
+
+h1 {
+  font-family: "super_enjoy";
+  color: white;
+  text-align: center;
+  font-size: 150px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "creato_display";
+  text-transform: uppercase;
+  color: white;
+}
+
+.listview_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 360px));
+  gap: 1rem;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.listview_article {
+  position: relative;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.listview_image_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.listview_image {
+  max-width: 100%;
+  height: 250px;
+  border-radius: 30px;
+}
+
+.listview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
